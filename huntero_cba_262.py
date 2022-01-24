@@ -34,6 +34,7 @@ for year in dataT['years']:
 dataT['NetBC']=NetBC
 print (dataT)
 
+
 #calculate net present value
 
 NPV=[0,0,0,0]
