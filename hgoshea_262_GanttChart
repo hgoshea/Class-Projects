@@ -32,3 +32,4 @@
 
       chart.draw(data, options);
     }
+
