@@ -33,6 +33,7 @@ AA['ratingB']=[3,4,2,3,2]
 
 #step 4: calculate partial scores by multiplying weight * ratings
 for index, row in AA.iterrows():
+    
   AA['scoreA'][index]=row['ratingA']*row['weight']
   AA['scoreB'][index]=row['ratingB']*row['weight']
 
